@@ -1,0 +1,25 @@
+*******  Project  Movie  Following a tutorial on Lynda.com for C++ ************
+
+
+MS Visual Studio/win 7
+Main.cpp met the solution requirements.
+The user can add 3 movies, the movie title the year and the rating. 
+This shows basic class usage, I learned I could place the year 
+validation right in the constructor, as opposed to calling a method. 
+
+Instantly, I disliked the solution and wrote Main2.cpp.
+Main2.cpp I used simple struct and cleaned up the code. 
+Realizing the limitations I wanted to improve again. 
+The next program needs to allow many movies to be entered, I would 
+like the user to be able to set the number, sort, add, delete items,
+and display. Not done yet.
+
+goal: learn github with a colaberator, push/pull and edit files.
+
+Main3.cpp: The program works version 5, and I will be working on the next version.
+
+max number of movies 1000
+use linked lists
+use text files
+allow, update, eidt, delete, and display in alphabetical order.
+trying different sorts.
