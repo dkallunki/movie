@@ -29,6 +29,10 @@ public:
 	void setYear(int);
 	void setRating(string);
 
+	//fxs
+	void printMovie( Movie movie[3]);// obj array
+
+
 };
 #endif // end of file
 

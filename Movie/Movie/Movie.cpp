@@ -61,3 +61,18 @@ void Movie:: setRating(string r){
 	movieRating=r;
 }
 //************methods
+
+
+void printMovie( Movie movie[3]){
+	
+	
+	for(int j =0; j<3; j++){
+	cout<<movie[j].getName()<<endl;
+	cout<<movie[j].getYear()<<endl;
+	cout<<movie[j].getRating()<<endl<<endl;
+	
+
+}
+	
+	
+}// obj array
