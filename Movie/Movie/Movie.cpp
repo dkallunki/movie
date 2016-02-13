@@ -1,7 +1,8 @@
 #include <iostream>
-#include"Movie.h"
+#include "Movie.h"
 #include <string>
 using namespace std;
+#include <iomanip>
 
 // constructors defined
 
@@ -63,16 +64,11 @@ void Movie:: setMovieRating(string r){
 //************methods
 
 
-void Movie::printMovie( Movie movie[3]){
+void Movie::printMovie( ){
 	
+	cout<<"     "<<getMovieName()<<" ,"
+	    <<setw(8)<<"made in the year: "<<getMovieYear()
+		<<"  "<<"rated: "<<getMovieRating()<<endl<<endl;
 	
-	for(int j =0; j<3; j++){
-	cout<<movie[j].getMovieName()<<endl;
-	cout<<movie[j].getMovieYear()<<endl;
-	cout<<movie[j].getMovieRating()<<endl<<endl;
-	
-
-}
-	
-	
+		
 }// obj array

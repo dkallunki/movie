@@ -40,8 +40,13 @@ int main(){
 		//cout<<movie[1].getMovieName();
 
 		// call movieDisplay for all in Movie array( make in class not here)
-		printMovie(movie[3]);
-		
+
+		// for loop here
+		cout<<endl<<endl<<"     Your Movies are:"<<endl;
+		 for(int j=0; j<3;j++)
+		 {
+		movie [j].printMovie();
+		 }
 		//system("pause");
 		cin.get();
 

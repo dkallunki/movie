@@ -30,7 +30,7 @@ public:
 	void setMovieRating(string);
 
 	//fxs
-	void printMovie( Movie movie[3]);// obj array
+	void printMovie();// obj array
 
 
 };
