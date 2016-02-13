@@ -21,7 +21,7 @@ struct StructMovie// in main
 int main(){
 
 	Movie movie[3];
-	
+	cout<<"kallunkij change "<<endl<<endl;
 	cout<<"please enter your top three movie picks"<<endl<<endl;
 
 		for(int i=0; i < 3; i++)
