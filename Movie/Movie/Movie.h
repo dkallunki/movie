@@ -9,7 +9,7 @@ private:
 	string movieName;
 	int movieYear;
 	string movieRating;
-	//bool yearValid;
+	
 
 public:
 	// constructors
@@ -20,14 +20,14 @@ public:
 	~Movie();
 
 	// accessors
-	string getName();
-	int getYear();
-	string getRating();
+	string getMovieName();
+	int getMovieYear();
+	string getMovieRating();
 
 	// mutators
-	void setName(string);
-	void setYear(int);
-	void setRating(string);
+	void setMovieName(string);
+	void setMovieYear(int);
+	void setMovieRating(string);
 
 	//fxs
 	void printMovie( Movie movie[3]);// obj array

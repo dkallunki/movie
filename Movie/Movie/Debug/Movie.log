@@ -1,16 +1,12 @@
-﻿Build started 2/5/2016 1:30:06 PM.
-     1>Project "C:\Users\john\Desktop\Movie\Movie\Movie.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2/13/2016 3:14:47 PM.
+     1>Project "D:\github\movie\Movie\Movie\Movie.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp Movie.cpp
-         Movie.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
          Main.cpp
-         Generating Code...
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\john\Desktop\Movie\Debug\Movie.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\john\Desktop\Movie\Debug\Movie.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\john\Desktop\Movie\Debug\Movie.lib" /MACHINE:X86 Debug\Main.obj
-         Debug\Movie.obj
-         Movie.vcxproj -> C:\Users\john\Desktop\Movie\Debug\Movie.exe
-     1>Done Building Project "C:\Users\john\Desktop\Movie\Movie\Movie.vcxproj" (Build target(s)).
+     1>d:\github\movie\movie\movie\main.cpp(43): error C2228: left of '.printMovie' must have class/struct/union
+                 type is 'Movie [3]'
+     1>Done Building Project "D:\github\movie\Movie\Movie\Movie.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:04.59
+Time Elapsed 00:00:00.63

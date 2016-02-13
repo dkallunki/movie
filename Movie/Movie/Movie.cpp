@@ -30,24 +30,24 @@ Movie::Movie( string name, int year, string rating){// if you set year=1999, the
 Movie::~Movie() {}
 
 // accessors
-string Movie::getName(){// better getmovieName(); to denote variable your  refferancing
+string Movie::getMovieName(){// better getmovieName(); to denote variable your  refferancing
 	return movieName;
 }
 
-int Movie::getYear(){
+int Movie::getMovieYear(){
 	return movieYear;
 }
 
-string Movie:: getRating(){
+string Movie:: getMovieRating(){
 	return movieRating;
 }
 // mutators
 
-void Movie::setName( string n){// to append any objs already in stack, not used here
+void Movie::setMovieName( string n){// to append any objs already in stack, not used here
 
 	movieName=n;
 }
-void Movie::setYear(int y){
+void Movie::setMovieYear(int y){
 
 	while ( y < 1900 || y> 2016){
 		cout<<"Invalid year. Please enter a date range between 1900 and 2016"<<endl;
@@ -57,19 +57,19 @@ void Movie::setYear(int y){
 
 	this->movieYear= y;// place the new change from here into my created obj "this->"
 }
-void Movie:: setRating(string r){
+void Movie:: setMovieRating(string r){
 	movieRating=r;
 }
 //************methods
 
 
-void printMovie( Movie movie[3]){
+void Movie::printMovie( Movie movie[3]){
 	
 	
 	for(int j =0; j<3; j++){
-	cout<<movie[j].getName()<<endl;
-	cout<<movie[j].getYear()<<endl;
-	cout<<movie[j].getRating()<<endl<<endl;
+	cout<<movie[j].getMovieName()<<endl;
+	cout<<movie[j].getMovieYear()<<endl;
+	cout<<movie[j].getMovieRating()<<endl<<endl;
 	
 
 }
